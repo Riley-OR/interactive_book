@@ -1,0 +1,111 @@
+/* styles already given to you: take a look at the @font-face, this is how we add a custom font to our css. the font file is inside the fonts folder within the root folder structure */
+
+@font-face {
+  font-family: fleetwoodMac;
+  src: url("fonts/fleetwoodMac.ttf");
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #597791;
+    background-color: #d4ede1;
+  font-family: 'fleetwoodMac', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 36px;
+  letter-spacing: 5px;
+}
+
+a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: lowercase;
+  color: #a595ca;
+}
+
+p {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+li {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 5px;
+}
+
+#info {
+  font-size: 16px;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+
+header, footer {
+  margin: 5px;
+  padding: 25px;
+  border: 2px solid #597791;
+  border-radius: 8px;
+  background: #597791;
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  border: .5px solid #0D0D0D;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  margin: 20px 5px;
+  align-items: flex-start;
+}
+
+.left-column {
+  width: 58%;
+  padding: 20px;
+}
+
+.right-column {
+  width: 38%;
+  padding: 20px;
+}
+
+/*----------------------------------------------
+  C O L U M N   L A Y O U T
+------------------------------------------------*/
+
+/*
+INSTRUCTIONS:
+STEPS 1, 2 & 3 are in the index.html file
+*/
+
+
+
+
+/* Flex container (hint this is a parent container)*/
+
+
+
+/* Flex item (left column hint-this is a child container) */
+
+
+
+/* Flex item (right column hint-this is a child container) */
+
+
