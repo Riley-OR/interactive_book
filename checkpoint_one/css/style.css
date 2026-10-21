@@ -2,8 +2,8 @@
 for now, you can leave these alone */
 
 * {
-    margin: 0;
-    padding: 0px;
+    margin: 10px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -64,4 +64,16 @@ h1 {
    text-align: center;
    background-color: rgba(165, 149, 202, 0.5);
    font-family: Chewy;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-row img {
+  width: 30%;
+  height: auto;
 }
