@@ -39,11 +39,25 @@ a {
     color:#a595ca;
 }
 
+.title {
+    margin-bottom: 10px;
+   padding: 10px 15px;
+   text-align: center;
+   background-color: rgba(165, 149, 202, 0.5);
+   font-family: Chewy;
+   font-weight: 200px;
+}
+
 h1 {
     font-family: chewy-regular;
+       text-align: center;
+
+    
 }
 h2 {
     font-family: chewy-regular;
+       text-align: center;
+
 }
 
 p {
@@ -57,4 +71,7 @@ a {
 .link-row {
     text-align: center;
     font-size: large;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
