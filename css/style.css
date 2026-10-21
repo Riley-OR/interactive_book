@@ -1,0 +1,67 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+
+ .chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+
+    color: #597791;
+    background-color: #d4ede1;
+}
+
+a {
+    color:#a595ca;
+}
+
+h1 {
+    font-family: chewy-regular;
+    font-weight: 200px;
+}
+
+p {
+    font-family: sniglet;
+}
+
+a {
+    font-family: sniglet;
+}
+
+.link-row {
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

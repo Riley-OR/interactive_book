@@ -1,0 +1,97 @@
+/* first, let's follow best practices and cancel out default margins with the universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+   margin: 25px 50px;
+       color: #597791;
+    background-color: #d4ede1;
+}
+
+
+ .chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.sniglet-regular {
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h1 {
+   margin-bottom: 10px;
+   padding: 10px 15px;
+   border: 1px solid black;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: rgba(165, 149, 202, 0.5);
+   font-family: Chewy;
+   font-weight: 200px;
+}
+
+h2 {
+   margin-top: 2.5%;
+   margin-bottom: 2.55%;
+   background-color: rgb(249, 249, 177);
+   color: black;
+   padding: 5px 10px 15px 20px;
+   border: 5px dotted white;
+   font-family: Chewy;
+   font-weight: 200;
+}
+
+p {
+   background-color: #597791;
+   color: white;
+   padding: 10px;
+   border: 1px solid black;
+   font-family: sniglet;
+}
+
+code {
+   background-color: white;
+   color: #8ec2a9;
+   border: 1px solid black;
+   padding: 3px;
+   
+}
+
+li {
+   background-color: #8ec2a9;
+   color: white;
+   padding: 10;
+   border: 1px solid rgb(143, 74, 74);
+   list-style: none;
+   font-family: sniglet;
+}
+
+
+
+a {
+    color:#a595ca;
+    background-color: #f9f9b1;
+    font-size: 36px;
+    border: 5px solid #a595ca;
+    text-decoration: none;
+    font-family: sniglet;
+}
+
+.blockTo {
+   display: inline;
+}
+
+.stack {
+   display: block;
+}

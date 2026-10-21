@@ -1,0 +1,179 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+body {
+    background-color: #cde3f1;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.josefin-sans-uniquifier {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.title {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+}
+
+.title a {
+    color: #3A400C;
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links {
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #047F8C;
+    
+}
+
+.link-row {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+h3 {
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #047F8C;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+p {
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.image-row {
+    display: flex;
+    gap: 0;
+}
+
+.image-row img {
+    width: 33%;
+    height: auto;
+}
+
+ul {
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3A400C;
+}
+
+li a{
+    color: #3A400C;
+}
+
+footer {
+  background-color: #04ADBF;
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.social-links a {
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3A400C;
+}
+
+.copyright, .copyright a {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #3A400C;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
