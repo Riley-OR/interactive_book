@@ -86,6 +86,14 @@ img {
   padding: 20px;
 }
 
+.link-row {
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
 /*----------------------------------------------
   C O L U M N   L A Y O U T
 ------------------------------------------------*/

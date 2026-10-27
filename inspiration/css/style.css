@@ -64,3 +64,33 @@ img {
 .muse {
     font-size: 24px;
 }
+
+.inspo-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.inspo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.inspo-image {
+    flex: 1;
+    min-width: 0;
+}
+
+.inspo-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.inspo-text {
+    flex: 1;
+    min-width: 0;
+}

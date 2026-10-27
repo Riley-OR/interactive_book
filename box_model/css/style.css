@@ -95,3 +95,11 @@ a {
 .stack {
    display: block;
 }
+
+.link-row {
+    text-align: center;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}

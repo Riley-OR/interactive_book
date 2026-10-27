@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>positioning elements</title>
+    <link rel="stylesheet" href="https://use.typekit.net/azk2aca.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header>
+  	<h1>positioning elements</h1>
+  </header>
+  <section>
+    <h3>Static</h3><p>default, as-is behavior</p>
+    <h3>Relative</h3><p>this positions a child relative to its parent. by giving an element a relative position, we can place it outside the normal flow of where it would be- but it still impacts other elements</p>
+    <h3>Absolute</h3><p>this takes the element out of the line up and no longer impacts elements around it, BUT you have to apply position:relative to a parent container
+      </p>
+    <h3>Fixed</h3><p>positioned in relation to the browser window, it just stays put!</p>
+    <h3>***Sticky***</h3><p>this one is a little more advanced, and we won’t get into it yet, but perhaps challenge yourself and your project to see if you can figure it out?</p><br>
+    <h3>Next up: z-index</h3><p>this is how we control layering when we are using positioning. if an element has a position, you can add a z-index, the larger the number the closer to the top.<br>
+    0=bottom 100=top<br>
+    think of z-index like the “bring to front” or “send to back” in design software.</p>
+    <br>
+    <p>for more information <a href="https://docs.google.com/presentation/d/1l5xqA2J6o3fNxPjc018LBTOWBgWTk6ssM02cNlLk4TU/edit?usp=sharing" target="_blank">click here</a></p>
+  <h3>Reflection</h3>
+  <p>For this lesson, it felt easy doing it in class, but looking at it on my own, I can see how I can easily mess up or confuse certain tags. I still don’t have full confidence in the display tags, and adding a bit more complexity to them doesn’t ease me all that much. My only issue during the lab is that I can’t seem to get the dots on the right to move up. I tried messing with some of the CSS code; I don’t know if I just didn’t experiment with the right one or if I needed to add a whole other code altogether. On the other hand, z-index was very straightforward to me; I mean, essentially, it’s just numbering layers, with the highest being on top. As of now, I don’t have any layering ideas for my overall website, but I’ll definitely keep it in mind just in case, although I can see it getting very complicated very fast if there are too many elements being affected by the layers. Overall, I think the positioning we learned can be useful if I want a border-like effect on any of my pages; my main concern would be that it can make the site look too busy and too extreme, so I’d definitely have to use it with caution.</p>
+<br>  
+<br>
+</section>
+
+	<div class="overlay-wrapper">
+	  <img src="img/knollflower.gif" alt="knoll flower" />
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+	</div>
+
+  
+
+  <footer>
+    <a href="#">footer nav</a>
+    <h3>fix the footer to the bottom</h3>
+    <a class="home" href="../index.html">home</a>
+ 
+  </footer>
+  
+</body>
+</html>
