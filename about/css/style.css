@@ -39,6 +39,8 @@ a {
     color:#a595ca;
 }
 
+
+
 .title {
     margin-bottom: 10px;
    padding: 10px 15px;
@@ -74,6 +76,14 @@ a {
     display: flex;
     justify-content: center;
     gap: 60px;
+}
+
+#link-form {
+    transition-duration: 2s;
+}
+
+#link-form:hover {
+    transform: scale(1.25);
 }
 
 .social-links {

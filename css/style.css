@@ -69,6 +69,15 @@ a {
     gap: 60px;
 }
 
+#link-form {
+    transition-duration: 2s;
+}
+
+#link-form:hover {
+    transform: scale(1.25);
+}
+
+
 .center-image {
   display: block;
   margin-left: auto;
