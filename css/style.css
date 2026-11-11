@@ -2,7 +2,7 @@
 for now, you can leave these alone */
 
 * {
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -34,76 +34,28 @@ body {
 
     color: #597791;
     background-color: #d4ede1;
+    padding: 15px;
 }
 
 a {
     color:#a595ca;
+    font-family: "Sniglet", system-ui;
+    background-color: rgba(165, 149, 202, 0.5);
+    border-radius: 15px;
+    padding: 8px 15px;
+    width: fit-content;
+    max-width: 100%;
 }
 
 
-
+/* HEADINGS AND TEXT */
 h1 {
     margin-bottom: 10px;
    padding: 10px 15px;
    text-align: center;
    background-color: rgba(165, 149, 202, 0.5);
    font-family: Chewy;
-}
-
-p {
-    font-family: sniglet;
-}
-
-a {
-    font-family: sniglet;
-}
-
-
-
-
-.link-row {
-    text-align: center;
-    font-size: large;
-    display: flex;
-    justify-content: center;
-    gap: 60px;
-}
-
-#link-form {
-    transition-duration: 2s;
-}
-
-#link-form:hover {
-    transform: scale(1.25);
-}
-
-
-.center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.image-text {
-    display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.image-column {
-    width: 40%;
-}
-
-.image-column img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.text-column {
-    width: 60%;
+   font-size: clamp(2rem, 5vw, 3rem);
 }
 
 h2 {
@@ -111,33 +63,130 @@ h2 {
     font-weight: lighter;
 }
 
+p {
+    font-family: sniglet;
+    line-height: 1.5;
+}
+
+/* LINKS */
+
+a {
+    font-family: sniglet;
+    background-color: rgba(165, 149, 202, 0.5);
+    border-radius: 15px;
+    padding: 8px 15px;
+    width: fit-content;
+}
+
+/* HEADER NAVIGATION */
+
+.link-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(12px, 4vw, 60px);
+    font-size: large;
+    margin: 15px 0 25px;
+    padding: 10px;
+}
+
+/* WORK NAVIGATION */
+
+.link-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.link-form {
+    font-size: large;
+    text-align: center;
+    flex: 0 1 auto;
+    transition-duration: 2s;
+    
+}
+
+.link-form:hover {
+    transform: scale(1.25);
+}
+
+
+
+/* WELCOME SECTION */
+
+.image-text {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.image-column {
+    flex: 2 1 250px;
+    width: 40%;
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.text-column {
+    flex: 3 1 300px;
+ min-width: 0;
+
+}
+
+
 .text-box {
     background-color: rgba(165, 149, 202, 0.5);
   border-radius: 15px;
   padding: 25px;
-  width: fit-content;
-  max-width: 65%;
+  width: 100%;
+  max-width: 650px;
 }
 
 
+/* DITTO AND ROCKRUFF */
 
 .image-row {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  gap: 133px;
+  gap: clamp(20px, 8vw, 133px);
+  margin: 25px 0;
 }
-<!-- if you found my secret note, 
-search up what Pokemon the gap number is <3 -->
-
-.image-row {
-    width: 200px;
+/* if you found my secret note,
+search up what Pokemon the last gap number is <3 */
+image-row img {
+ width: 200px;
+    max-width: 40%;
     height: 200px;
     object-fit: contain;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+
+
+/* RESPONSIVE LAYOUT */
+
+@media screen and (max-width: 600px) {
+
+    .text-box {
+        padding: 18px;
+    }
+
+    .image-row img {
+        width: 40%;
+        height: auto;
+    }
+
 }

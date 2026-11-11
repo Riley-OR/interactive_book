@@ -39,7 +39,24 @@ a {
     color:#a595ca;
     font-family: sniglet;
 }
+.navlink {
+    font-family: sniglet;
+    color:#a595ca;
+    background-color: rgba(165, 149, 202, 0.5);
+    border-radius: 15px;
+    padding: 8px 15px;
+    width: fit-content;
+}
 
+
+.link-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(12px, 4vw, 60px);
+    font-size: large;
+    margin: 15px 0 25px;
+}
 .link-row {
     text-align: center;
     font-size: large;

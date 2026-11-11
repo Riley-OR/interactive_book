@@ -97,9 +97,10 @@ a {
 }
 
 .link-row {
-    text-align: center;
-    font-size: large;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: clamp(12px, 4vw, 60px);
+    font-size: large;
+    margin: 15px 0 25px;
 }

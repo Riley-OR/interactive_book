@@ -1,0 +1,195 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+/* how do we reset our css again? what are the three things we need to call out here? */
+}
+
+body {
+
+  height: 100%;
+  /* set min-height to what? */
+  min-height: 100vh;
+  width: 100%;
+  /* set width to what? */
+  background-color: lightblue;
+  /* margin: ?; */
+  font-size: 100%;
+ }
+
+.link-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(12px, 4vw, 60px);
+    font-size: large;
+    margin: 15px 0 25px;
+}
+
+a {
+      color:#a595ca;
+    background-color: rgba(165, 149, 202, 0.5);
+    border-radius: 15px;
+    padding: 8px 15px;
+    width: fit-content;
+}
+
+ #topPage {
+  /* display: ?; */
+  /* what else? */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+    gap: 15px;
+    padding: 10px;
+ 
+ }
+
+ #logo {
+  width: 10%;
+  min-width: 60px;
+}
+
+#pagetitle {
+  background-color: rgb(0,0,255);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  flex: 1;
+}
+
+ h1 {
+  font-size: 3.25em;
+}
+
+h2 {
+  font-size: 3;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1em;
+  padding: 20px;
+}
+
+.bodytext {
+  padding-left: 25px;
+}
+
+/* --------styles--------------- */
+
+.directions {
+  background-color: blueviolet;
+  color: aquamarine;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#viewport {
+  background-color: rgb(200,255,100);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+#viewportImage {
+  width: 50%;
+}
+
+#before, #after {
+  border: 1px solid black;
+  width: 25%;
+  height: auto;
+
+}
+
+#beforeAfter {
+  background-color: chartreuse;
+  /* display: ?*/
+  /* what else */
+  /* width: ? */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+
+}
+
+#beforeBlock, #afterBlock {
+    flex: 1 1 600px;
+    min-width: 0;
+}
+
+#gifs {
+  background-color: coral;
+  /* display: ? */
+  /* what else */
+  /* what else */
+  width: 350px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 25px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+
+}
+
+#leftgif, #centergif, #rightgif {
+  border: 1px solid black;
+  flex: 1 1 250px;
+  min-width: 0;
+}
+
+.gifsSize {
+  width: 325px;
+}
+
+.bodytext {
+
+  background-color: cyan;
+
+}
+
+#media {
+  background-color: hotpink;
+}  
+
+/* -------- media queries --------- */
+@media screen and (max-width:600px){
+  body {
+    font-size: 75%;
+  }
+  #logo {
+    width: 25%;
+  }
+  #viewport {
+    width: 100%;
+  }
+  #viewportImage {
+    width: 100%;
+  }
+  #beforeAfter {
+    flex-direction: column;
+  }
+  #gifs {
+    flex-direction: column;
+    width: 50%;
+  }
+  
+}
+
+
